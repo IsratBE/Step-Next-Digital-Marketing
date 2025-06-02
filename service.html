@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Our Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <style>
+    body {
+      background: #e3e3e4;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .section-title {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 40px;
+    }
+    .section-title h2 {
+      font-weight: 700;
+      color: #010615;
+    }
+    .service-block {
+      padding: 60px 0;
+    }
+    .service-img {
+      width: 55%;
+      border-radius: 20px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    }
+    .service-text h3 {
+      color: #020a24;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    .service-text p {
+      color: #374151;
+    }
+    .service-row {
+      margin-bottom: 60px;
+    }
+
+    
+
+    /* Responsive tweaks */
+    @media (max-width: 767px) {
+      .service-text {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .service-img {
+        margin-bottom: 20px;
+      }
+    }
+
+    .footer {
+      background-color: #1e293b;
+      padding: 60px 30px;
+      position: relative;
+    }
+
+    .footer-logo h4 {
+      font-size: 28px;
+      font-weight: bold;
+      color: #3b82f6;
+    }
+
+    .footer p, .footer a {
+      font-size: 14px;
+      color: #94a3b8;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      color: #3b82f6;
+    }
+
+    .social-icons a {
+      color: #94a3b8;
+      margin-right: 12px;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #3b82f6;
+    }
+
+    .map-container {
+      height: 100%;
+      min-height: 250px;
+      width: 100%;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+
+    .footer-bottom {
+      text-align: center;
+      border-top: 1px solid #334155;
+      padding-top: 10px;
+      margin-top: 20px;
+      color: #b0b5bb;
+      font-size: 15px;
+    }
+
+    @media (max-width: 768px) {
+      .map-container {
+        margin-top: 30px;
+        height: 250px;
+      }
+    }
+    .service-img {
+  width: 55%;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.service-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+  
+  
+  
+
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="section-title">
+      <h2>Our Detailed <span class="text-primary">Services</span></h2>
+      <p class="text-muted">Explore how we help brands grow, step-by-step.</p>
+    </div>
+
+    <!-- Each service row alternates layout direction on desktop -->
+    <!-- Campaign Design -->
+    <div class="row align-items-center service-row" data-aos="fade-up">
+      <div class="col-md-6 service-text">
+        <h3>01. Campaign Design</h3>
+        <p>Execute impactful online-offline campaigns with creative flair and strategic insights that connect with your audience.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="service images/compaign design-1.png" class="service-img" alt="Campaign Design">
+      </div>
+    </div>
+
+    <!-- Digital Presence -->
+    <div class="row align-items-center flex-md-row-reverse service-row" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-md-6 service-text">
+        <h3>02. Digital Presence</h3>
+        <p>We build your online foundation—website, social media, SEO—so your brand thrives in the digital world.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="service images/digital presence-2.png" class="service-img" alt="Digital Presence">
+      </div>
+    </div>
+
+    <!-- Video & Photo Editing -->
+    <div class="row align-items-center service-row" data-aos="fade-up" data-aos-delay="200">
+      <div class="col-md-6 service-text">
+        <h3>03. Video & Photo Editing</h3>
+        <p>Enhance your content with high-quality video/photo editing, custom workshops, and brand-consistent visuals.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="service images/photo editor-3.jpg" class="service-img" alt="Video Editing">
+      </div>
+    </div>
+
+    <!-- Strategy & Research -->
+    <div class="row align-items-center flex-md-row-reverse service-row" data-aos="fade-up" data-aos-delay="300">
+      <div class="col-md-6 service-text">
+        <h3>04. Strategy & Research</h3>
+        <p>We use strategic research to help you make informed decisions and uncover new growth opportunities.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="service images/research -4.png" class="service-img" alt="Strategy & Research">
+      </div>
+    </div>
+
+    <!-- Web Design & Developer -->
+    <div class="row align-items-center service-row" data-aos="fade-up" data-aos-delay="400">
+      <div class="col-md-6 service-text">
+        <h3>05. Web Design & Developer</h3>
+        <p>Responsive, fast, and beautiful websites using the latest tech, designed to drive engagement and results.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="service images/web design-5.jpg" class="service-img" alt="Web Design">
+      </div>
+    </div>
+
+    <!-- Telemarketing -->
+    <div class="row align-items-center flex-md-row-reverse service-row" data-aos="fade-up" data-aos-delay="500">
+      <div class="col-md-6 service-text">
+        <h3>06. Telemarketing</h3>
+        <p>Engage your audience directly with personalized calls and generate leads through strategic communication.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="service images/telemarketing-6.png" class="service-img" alt="Telemarketing">
+      </div>
+    </div>
+
+    <!-- SEO & Digital Marketing -->
+    <div class="row align-items-center service-row" data-aos="fade-up" data-aos-delay="600">
+      <div class="col-md-6 service-text">
+        <h3>07. SEO & Digital Marketing</h3>
+        <p>Drive visibility and results through search engine optimization, paid ads, and smart digital campaigns.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="service images/seo-7.jpg" class="service-img" alt="SEO Marketing">
+      </div>
+    </div>
+
+    <!-- Content Solution -->
+    <div class="row align-items-center flex-md-row-reverse service-row" data-aos="fade-up" data-aos-delay="700">
+      <div class="col-md-6 service-text">
+        <h3>08. Content Solution</h3>
+        <p>We create captivating and SEO-rich content tailored to your audience, optimized for performance and growth.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="service images/content-8.png" class="service-img" alt="Content Solution">
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer bg-black">
+  <div class="container">
+    <div class="row g-5">
+      
+      <!-- Left Side -->
+      <div class="col-lg-7">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="footer-logo mb-3">
+              <h4>Step Next</h4>
+            </div>
+            <p>Step Next is your partner in digital transformation. We create powerful web experiences to help your business grow and thrive in the digital era.</p>
+            <div class="social-icons mt-3">
+              <a href="https://www.facebook.com/stepnextbd?mibextid=ZbWKwL"target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <h5 class="mb-3 text-white">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+
+            <h5 class="mt-4 mb-2 text-white">Contact</h5>
+            <p><i class="fas fa-envelope me-2"></i> info@stepnext.com</p>
+            <p><i class="fas fa-phone me-2"></i> +0880 1910 800333</p>
+            <p><i class="fas fa-phone me-2"></i> +0880 1910 800444</p>
+            <p><i class="fas fa-map-marker-alt me-2"></i> 469,Mukto Bangla Shopping Complex (4th Floor),Mirpur-1, 1216 Dhaka, Bangladesh</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Side: Map -->
+      <div class="col-lg-5">
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.5636262619437!2d90.35037292511672!3d23.798548728637584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c1af8a41beb1%3A0x969b79ea516ff781!2sMuktobangla%20Shopping%20Complex%20Jame%20Mosque!5e0!3m2!1sen!2sbd!4v1748840430660!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom mt-5 text-bold">
+      &copy; 2025 Step Next. All Rights Reserved.
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 900,
+      once: true,
+    });
+  </script>
+</body>
+</html>
